@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1509611847 source:d:\cplusplus\helloworld\main.cpp
+	<iostream>
+	"add.h"
+	"MyClass.h"
+
+1509591462 source:d:\cplusplus\helloworld\add.cpp
+
+1509593588 d:\cplusplus\helloworld\add.h
+
+1509611848 d:\cplusplus\helloworld\myclass.h
+
+1509612807 source:d:\cplusplus\helloworld\myclass.cpp
+	"MyClass.h"
+	<iostream>
+
