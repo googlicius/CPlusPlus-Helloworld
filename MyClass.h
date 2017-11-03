@@ -5,13 +5,15 @@
 class MyClass
 {
     public:
-        MyClass();
+        MyClass(int x);
         virtual ~MyClass();
         void myPrint();
+        MyClass operator+(MyClass obj);
 
     protected:
 
     private:
+        int num;
 };
 
 #endif // MYCLASS_H

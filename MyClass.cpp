@@ -3,7 +3,7 @@
 
 using namespace std;
 
-MyClass::MyClass()
+MyClass::MyClass(int x): num(x)
 {
     //ctor
     cout << "Constructor" <<endl;
@@ -16,5 +16,12 @@ MyClass::~MyClass()
 }
 
 void MyClass::myPrint() {
-    cout << "Hello" << endl;
+    cout << "Num is: "
+        << num << endl;
+}
+
+MyClass MyClass::operator+(MyClass obj) {
+    MyClass obj2(0);
+    obj2.num = this->num + obj.num;
+    return obj2;
 }
